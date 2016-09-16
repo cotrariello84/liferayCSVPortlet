@@ -1,0 +1,30 @@
+#boxMigrationLoading {
+  display: none;
+  height: 0;
+  position: relative;
+  text-align: center;
+  z-index: 100; }
+
+#imgAjaxLoader {
+  width: 35%;
+  height: auto; }
+
+.btn-file {
+  position: relative;
+  overflow: hidden; }
+
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block; }
+
